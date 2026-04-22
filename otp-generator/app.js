@@ -13,4 +13,4 @@ app.get('/api/generate-otp', (req, res) => {
 });
 
 const port = Number(process.env.PORT ?? 3000);
-app.listen(3000, () => console.log(`Listening on port ${port}`));
+app.listen(port, () => console.log(`Listening on port ${port}`));
