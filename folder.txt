@@ -1,0 +1,12 @@
+bmi-calculator
+coin-flip
+color-generator
+folder.txt
+health-check
+otp-generator
+password-generator
+string-reverser
+test
+unit-converter
+uuid-generator
+word-counter

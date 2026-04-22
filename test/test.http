@@ -1,32 +1,22 @@
 # @baseUrl = http://localhost:3000
-@baseUrl = http://203.175.11.71:3000
-
+@baseUrl = http://203.175.11.71
 ###
-GET {{baseUrl}}/api/generate-password
-
+GET {{baseUrl}}:3000/api/bmi?height=1.7&&weight=75
 ###
-GET {{baseUrl}}/api/generate-otp
-
+GET {{baseUrl}}:3001/api/coin-flip
 ###
-GET {{baseUrl}}/api/generate-uuid
-
+GET {{baseUrl}}:3002/api/generate-color
 ###
-GET {{baseUrl}}/api/reverse?text=basho
-
+GET {{baseUrl}}:3003/api/status
 ###
-GET {{baseUrl}}/api/bmi?height=1.7&&weight=75
-
+GET {{baseUrl}}:3004/api/generate-otp
 ###
-GET {{baseUrl}}/api/coin-flip
-
+GET {{baseUrl}}:3005/api/generate-password
 ###
-GET {{baseUrl}}/api/c-to-f?temp=80
-
+GET {{baseUrl}}:3006/api/reverse?text=basho
 ###
-GET {{baseUrl}}/api/word-count?text=abcd abcd
-
+GET {{baseUrl}}:3007/api/c-to-f?temp=80
 ###
-GET {{baseUrl}}/api/generate-color
-
+GET {{baseUrl}}:3008/api/generate-uuid
 ###
-GET {{baseUrl}}/api/status
+GET {{baseUrl}}:3009/api/word-count?text=abcd abcd
